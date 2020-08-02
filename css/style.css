@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.default {
+  font-size: 16px;
+}
+.container {
+  background: white;
+  position: relative;
+}
+.about {
+  padding: 30px;
+
+  line-height: 45px;
+}
+hr {
+  border: 2px solid #cccccc;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.content {
+  padding-right: 60px;
+}
+.table-content {
+  margin-left: 30px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  display: table;
+}
+.table-content {
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.table-content th {
+  background-color: #bceeff;
+}
+.table-content tr:nth-child(odd) {
+  background-color: #fff;
+}
+.table-content tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+.table-content td,
+.table-content th {
+  padding: 20px;
+  display: table-cell;
+  text-align: left;
+  vertical-align: top;
+}
+a {
+  text-decoration: none;
+  margin-left: 5px;
+  border-radius: 25%;
+}
+
+a:link {
+  background-color: #bceeff;
+  padding: 10px;
+  color: black;
+}
+a:visited {
+  background-color: #d8fcc7;
+}
+.git {
+  background-color: #ccc;
+  padding: 10px;
+  border-radius: 25%;
+  width: 50px;
+}
+.html {
+  background-color: #ffa996;
+  padding: 10px;
+  border-radius: 25%;
+  width: 50px;
+}
+.css {
+  background-color: #ffe3a5;
+  padding: 10px;
+  border-radius: 25%;
+  width: 50px;
+}
